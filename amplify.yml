@@ -15,7 +15,7 @@ frontend:
       commands:
         - cd ../frontend
         - rm -rf node_modules
-        - npm install
+        - npm install --legacy-peer-deps
     build:
       commands:
         - export REACT_APP_GRAPHQLENDPOINT=$(aws ssm get-parameter --name GraphQLEndpoint --query Parameter.Value --output text --region us-west-2)
