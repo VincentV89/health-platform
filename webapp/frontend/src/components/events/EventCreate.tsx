@@ -82,7 +82,7 @@ export const EventCreate = (props: { userName: string; patients: PatientsDetail[
                 <DialogTitle>Event Detail</DialogTitle>
                 <DialogContent>
                     <DialogContentText>
-                        Please provide details on the event.
+                        Please provide details on the event 2.
                     </DialogContentText>
                     <Box
                         component="form"
