@@ -1,5 +1,5 @@
 import { DateTimePicker, LoadingButton, LocalizationProvider } from '@mui/lab';
-import AdapterDateFns from '@mui/x-date-pickers/AdapterDateFns';
+import {AdapterDateFns} from '@mui/x-date-pickers/AdapterDateFns';
 import { Alert, Button, FormControl, FormHelperText, InputLabel, MenuItem, OutlinedInput, Select, TextField } from '@mui/material';
 import Box from '@mui/material/Box';
 import { API } from 'aws-amplify';
