@@ -15,8 +15,9 @@ import {
 import { API } from "aws-amplify";
 import { createEventDetail } from "../../common/graphql/mutations";
 import { EventDetailInput, PatientsDetail } from "../../common/types/API";
-import { DateTimePicker, LocalizationProvider } from "@mui/lab";
-import AdapterDateFns from "@mui/lab/AdapterDateFns";
+import { DateTimePicker} from '@mui/x-date-pickers/DateTimePicker';
+import { LocalizationProvider} from '@mui/x-date-pickers/LocalizationProvider'
+import { AdapterDateFns} from '@mui/x-date-pickers/AdapterDateFns';
 const { v4: uuidv4 } = require('uuid');
 
 
